@@ -1,0 +1,162 @@
+.header_menu {
+  display: flex; 
+  flex-direction: row; /* Горизонтальное направление */
+  width: 320px;
+}
+
+.header_left-menu-navigation {
+  display: flex;
+  justify-content: space-between; /* Распределение по краям */
+  align-items: center; /* Выравнивание по центру */
+  height: 88px; /* Высота шапки */
+  width: 100%; /* Ширина 100% */
+  padding: 0 24px; /* Отступы по бокам */
+  gap: 16.73px ; /* Расстояние между элементами */
+  margin-bottom: 32px;
+}
+
+.header_left-menu {
+  display: flex;
+  gap: 16.73px; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_right-left-menu{
+  display: flex;
+  gap: 16.73px; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_left-menu-btn {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+.header_btn {
+    border: none;
+    background: none;
+}
+
+.highlight {
+    width: 32px;
+    height: 4px;
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_left-menu {
+    display: flex;
+    flex-direction: column;
+    width: 222px;
+    cursor: pointer; /* Курсор при наведении*/
+    gap: 32px;
+    padding-left: 24px;
+}
+
+.btn_main  {
+    display: flex;
+    justify-content: flex-start;
+    width: max-content;
+    height: 24px;
+    background: none; /* Прозрачный фон */
+    color: #1B1C21; /* Цвет текста */
+    font-weight: 500; /* Полужирный */
+    font-family: TT Lakes; /* Шрифт */
+    white-space: nowrap; /* Текст в одну строку */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 24px; /* Высота строки */
+    letter-spacing: -0.2px; /* Межбуквенное расстояние */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#btn_one {
+    padding-top: 8px;
+    color: #7E7E82;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding-left: 24px;
+}
+
+.btn_info {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.btn-inf {
+    display: flex;
+    border: none;
+    background: none;
+}
+
+.mail {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.mail-cps {
+    color: #1B1C21; /* Цвет текста */
+    font-weight: 500; /* Полужирный */
+    font-family: TT Lakes; /* Шрифт */
+    white-space: nowrap; /* Текст в одну строку */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 24px; /* Высота строки */
+    letter-spacing: -0.2px; /* Межбуквенное расстояние */
+}
+
+.number_call {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.number_call-num {
+  font-size: 24px; /* Размер шрифта */
+  line-height: 32px; /* Высота строки */
+  letter-spacing: -0.6px; /* Межбуквенное расстояние */
+  font-weight: 700; /* Жирный шрифт */
+  font-family: TT Lakes; /* Шрифт */
+}
+
+.language {
+   display: flex;
+   gap: 7px;
+}
+
+.translation {
+    border: none;
+    background: none;
+    color: #1B1C21; /* Цвет текста */
+    font-weight: 500; /* Полужирный */
+    font-family: TT Lakes; /* Шрифт */
+    white-space: nowrap; /* Текст в одну строку */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 24px; /* Высота строки */
+    letter-spacing: -0.2px; /* Межбуквенное расстояние */
+}
+
+#ru {
+    color: #7E7E82;
+}
+
+
+.btn-active:active {
+  border: 2px solid #41F6D7; /* При нажатии */
+}
+
+.btn-hover:hover {
+    border: 2px solid #41F6D7; 
+    background: white;
+}
