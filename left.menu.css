@@ -1,5 +1,16 @@
+.left_menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 320px;
+  height: 100vh;
+  background: #FFFFFF;
+  z-index: 100;
+  box-shadow: 10px 0 20px 15px rgba(0, 0, 0, 0.2), inset 1px 0 0 rgba(0, 0, 0, 0.5);
+}
+
 .header_menu {
-  display: flex; 
+  display: flex;
   flex-direction: row; /* Горизонтальное направление */
   width: 320px;
 }
@@ -11,76 +22,82 @@
   height: 88px; /* Высота шапки */
   width: 100%; /* Ширина 100% */
   padding: 0 24px; /* Отступы по бокам */
-  gap: 16.73px ; /* Расстояние между элементами */
+  gap: 16.73px; /* Расстояние между элементами */
   margin-bottom: 32px;
+  border-right: 2px;
+  border-color: #1b1c21;
 }
 
 .header_left-menu {
   display: flex;
-  gap: 16.73px; 
+  gap: 16.73px;
   justify-content: space-between;
   align-items: center;
 }
 
-.header_right-left-menu{
+.header_right-left-menu {
   display: flex;
-  gap: 16.73px; 
+  gap: 16.73px;
   justify-content: space-between;
   align-items: center;
+}
+
+.main_left-menu {
+  width: 320px;
 }
 
 .main_left-menu-btn {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-    
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-bottom: 50px;
 }
 
+
+
 .header_btn {
-    border: none;
-    background: none;
+  border: none;
+  background: none;
 }
 
 .highlight {
-    width: 32px;
-    height: 4px;
-    position: absolute;
-    background: none;
-    border: none;
-    cursor: pointer;
+  width: 32px;
+  height: 4px;
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .btn_left-menu {
-    display: flex;
-    flex-direction: column;
-    width: 222px;
-    cursor: pointer; /* Курсор при наведении*/
-    gap: 32px;
-    padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 222px;
+  cursor: pointer; /* Курсор при наведении*/
+  gap: 32px;
+  padding-left: 24px;
 }
 
-.btn_main  {
-    display: flex;
-    justify-content: flex-start;
-    width: max-content;
-    height: 24px;
-    background: none; /* Прозрачный фон */
-    color: #1B1C21; /* Цвет текста */
-    font-weight: 500; /* Полужирный */
-    font-family: TT Lakes; /* Шрифт */
-    white-space: nowrap; /* Текст в одну строку */
-    font-size: 16px; /* Размер шрифта */
-    line-height: 24px; /* Высота строки */
-    letter-spacing: -0.2px; /* Межбуквенное расстояние */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.btn_main {
+  display: flex;
+  justify-content: flex-start;
+  width: max-content;
+  height: 24px;
+  background: none; /* Прозрачный фон */
+  color: #1b1c21; /* Цвет текста */
+  font-weight: 500; /* Полужирный */
+  font-family: TT Lakes; /* Шрифт */
+  white-space: nowrap; /* Текст в одну строку */
+  font-size: 16px; /* Размер шрифта */
+  line-height: 24px; /* Высота строки */
+  letter-spacing: -0.2px; /* Межбуквенное расстояние */
+  border: none;
+  cursor: pointer;
 }
-
 
 #btn_one {
-    padding-top: 8px;
-    color: #7E7E82;
+  margin-top: 8px;
+  color: #7e7e82;
 }
 
 .footer {
@@ -91,35 +108,35 @@
 }
 
 .btn_info {
-    display: flex;
-    gap: 16px;
-    padding-bottom: 16px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
 }
 
 .btn-inf {
-    display: flex;
-    border: none;
-    background: none;
+  display: flex;
+  border: none;
+  background: none;
 }
 
 .mail {
-    display: flex;
-    padding-bottom: 12px;
+  display: flex;
+  padding-bottom: 12px;
 }
 
 .mail-cps {
-    color: #1B1C21; /* Цвет текста */
-    font-weight: 500; /* Полужирный */
-    font-family: TT Lakes; /* Шрифт */
-    white-space: nowrap; /* Текст в одну строку */
-    font-size: 16px; /* Размер шрифта */
-    line-height: 24px; /* Высота строки */
-    letter-spacing: -0.2px; /* Межбуквенное расстояние */
+  color: #1b1c21; /* Цвет текста */
+  font-weight: 500; /* Полужирный */
+  font-family: TT Lakes; /* Шрифт */
+  white-space: nowrap; /* Текст в одну строку */
+  font-size: 16px; /* Размер шрифта */
+  line-height: 24px; /* Высота строки */
+  letter-spacing: -0.2px; /* Межбуквенное расстояние */
 }
 
 .number_call {
-    display: flex;
-    padding-bottom: 40px;
+  display: flex;
+  padding-bottom: 40px;
 }
 
 .number_call-num {
@@ -131,32 +148,30 @@
 }
 
 .language {
-   display: flex;
-   gap: 7px;
+  display: flex;
+  gap: 7px;
 }
 
 .translation {
-    border: none;
-    background: none;
-    color: #1B1C21; /* Цвет текста */
-    font-weight: 500; /* Полужирный */
-    font-family: TT Lakes; /* Шрифт */
-    white-space: nowrap; /* Текст в одну строку */
-    font-size: 16px; /* Размер шрифта */
-    line-height: 24px; /* Высота строки */
-    letter-spacing: -0.2px; /* Межбуквенное расстояние */
+  border: none;
+  background: none;
+  color: #1b1c21; /* Цвет текста */
+  font-weight: 500; /* Полужирный */
+  font-family: TT Lakes; /* Шрифт */
+  white-space: nowrap; /* Текст в одну строку */
+  font-size: 16px; /* Размер шрифта */
+  line-height: 24px; /* Высота строки */
+  letter-spacing: -0.2px; /* Межбуквенное расстояние */
 }
 
 #ru {
-    color: #7E7E82;
+  color: #7e7e82;
 }
 
-
 .btn-active:active {
-  border: 2px solid #41F6D7; /* При нажатии */
+  color: pink;
 }
 
 .btn-hover:hover {
-    border: 2px solid #41F6D7; 
-    background: white;
+  color: aquamarine;
 }
