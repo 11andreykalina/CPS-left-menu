@@ -90,7 +90,7 @@
 
 
 #btn_one {
-    padding-top: 8px;
+    margin-top: 8px;
     color: #7E7E82;
 }
 
@@ -171,3 +171,19 @@
     border: 2px solid #41F6D7; 
     background: white;
 }
+
+.all-btn {
+  display: inline-block; 
+  overflow: hidden;
+}
+
+.all-btn img {
+  transition: 1s; /* Время эффекта */
+  display: block;
+}
+
+.all-btn img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
