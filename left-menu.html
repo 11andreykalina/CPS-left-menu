@@ -9,70 +9,91 @@
     <link rel="stylesheet" href="left.menu.css" />
   </head>
   <body>
-    <header class="header_menu">
-      <div class="header_left-menu-navigation">
-        <div class="header_left-menu">
-          <button class="close_menu header_btn btn-hover btn-active">
-            <img src="image/close.svg" alt="close-menu" />
-          </button>
-          <button class="logo header_btn btn-hover btn-active">
-            <img src="image/Group.svg" alt="logo" />
-          </button>
+    <div class="left_menu">
+      <header class="header_menu">
+        <div class="header_left-menu-navigation">
+          <div class="header_left-menu">
+            <button class="close_menu header_btn">
+              <img src="image/close.svg" alt="close-menu" />
+            </button>
+            <button class="logo header_btn">
+              <img src="image/Group.svg" alt="logo" />
+            </button>
+          </div>
+          <div class="header_right-left-menu">
+            <button class="header_search header_btn">
+              <img src="image/search.svg" alt="search" />
+            </button>
+          </div>
         </div>
-        <div class="header_right-left-menu">
-          <button class="header_search header_btn btn-hover btn-active">
-            <img src="image/search.svg" alt="search" />
-          </button>
-        </div>
-      </div>
-    </header>
+      </header>
 
-    <main class="main_left-menu">
-      <div class="main_left-menu-btn">
-        <div class="btn_highlight">
-          <button class="highlight btn-hover btn-active">
-            <img src="image/highlight.svg" alt="highlight" />
+      <main class="main_left-menu">
+        <div class="main_left-menu-btn">
+          <div class="btn_highlight">
+            <button class="highlight btn-hover btn-active">
+              <img src="image/highlight.svg" alt="highlight" />
+            </button>
+          </div>
+          <div class="btn_left-menu">
+            <button
+              class="repair-of-equipment btn_main btn-hover btn-active"
+              id="btn_one"
+            >
+              Ремонт техники
+            </button>
+            <button class="btn_main btn-hover btn-active">
+              Услуги и сервисы
+            </button>
+            <button class="btn_main btn-hover btn-active">
+              Корпоротивным клиентам
+            </button>
+            <button class="btn_main btn-hover btn-active">
+              Продавцам техники
+            </button>
+            <button class="btn_main btn-hover btn-active">Партнерам</button>
+            <button class="btn_main btn-hover btn-active">
+              Производителям
+            </button>
+            <button class="btn_main btn-hover btn-active">
+              Наши сервисные центры
+            </button>
+            <button class="btn_main btn-hover btn-active">Контакты</button>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="contact-info">
+          <div class="btn_info">
+            <button class="call btn-inf">
+              <img src="image/call.svg" alt="call" />
+            </button>
+            <button class="chat btn-inf">
+              <img src="image/chat.svg" alt="chat" />
+            </button>
+            <button class="profile btn-inf">
+              <img src="image/profile.svg" alt="profile" />
+            </button>
+          </div>
+          <div class="mail">
+            <a href="mail@cps.com"> <p class="mail-cps">mail@cps.com</p> </a>
+          </div>
+          <div class="number_call">
+            <p class="number_call-num">8 800 890 8900</p>
+          </div>
+        </div>
+        <div class="language">
+          <button class="language-ru translation btn-hover btn-active" id="ru">
+            RU
+          </button>
+          <button class="language-en translation btn-hover btn-active">
+            EN
+          </button>
+          <button class="language-ch translation btn-hover btn-active">
+            CH
           </button>
         </div>
-        <div class="btn_left-menu">
-          <button class="repair of equipment btn_main btn-hover btn-active" id="btn_one">
-            Ремонт техники
-          </button>
-          <button class="btn_main btn-hover btn-active">Услуги и сервисы</button>
-          <button class="btn_main btn-hover btn-active">Корпоротивным клиентам</button>
-          <button class="btn_main btn-hover btn-active">Продавцам техники</button>
-          <button class="btn_main btn-hover btn-active">Партнерам</button>
-          <button class="btn_main btn-hover btn-active">Производителям</button>
-          <button class="btn_main btn-hover btn-active">Наши сервисные центры</button>
-          <button class="btn_main btn-hover btn-active">Контакты</button>
-        </div>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="contact-info">
-        <div class="btn_info">
-          <button class="call btn-inf btn-hover btn-active">
-            <img src="image/call.svg" alt="call" />
-          </button>
-          <button class="chat btn-inf btn-hover btn-active">
-            <img src="image/chat.svg" alt="chat" />
-          </button>
-          <button class="profile btn-inf btn-hover btn-active">
-            <img src="image/profile.svg" alt="profile" />
-          </button>
-        </div>
-        <div class="mail">
-          <a href="mail@cps.com"> <p class="mail-cps">mail@cps.com</p> </a>
-        </div>
-        <div class="number_call">
-          <p class="number_call-num">8 800 890 8900</p>
-        </div>
-      </div>
-      <div class="language">
-        <button class="language-ru translation btn-hover btn-active" id="ru">RU</button>
-        <button class="language-en translation btn-hover btn-active">EN</button>
-        <button class="language-ch translation btn-hover btn-active">CH</button>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
