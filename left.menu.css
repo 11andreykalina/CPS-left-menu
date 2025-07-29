@@ -82,7 +82,7 @@ body {
   flex-direction: column;
   width: 222px;
   cursor: pointer; /* Курсор при наведении*/
-  gap: 32px;
+  gap: min(32px, 3vh);
   padding-left: 24px;
 }
 
@@ -121,6 +121,7 @@ body {
   flex-direction: column;
   width: 320px;
   padding-left: 24px;
+  padding-bottom: min(20px, 3vh);
 }
 
 .btn_info {
