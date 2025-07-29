@@ -182,12 +182,14 @@
 }
 
 .all-btn img {
-  transition: 1s; /* Время эффекта */
-  display: block;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
 }
 
 .all-btn img:hover {
-  transform: scale(1.2);
+  -webkit-transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
+          transform: rotate(360deg);
   cursor: pointer;
 }
 
