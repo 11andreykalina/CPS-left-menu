@@ -2,7 +2,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  width: 320px;
+  aspect-ratio: 3/9;
   height: 100%;
   background: #ffffff;
   z-index: 100;
@@ -99,6 +99,15 @@
   color: #7e7e82;
 }
 
+#btn_one:hover {
+  color: #FF3E79;
+}
+
+
+#btn_one:active {
+  color: #41f6d7;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -167,13 +176,28 @@
   color: #7e7e82;
 }
 
-.btn-active:active {
-  color: pink;
+#ru:hover {
+  color: #FF3E79;
 }
 
-.btn-hover:hover {
-  border: 2px solid #41f6d7;
+#ru:active {
+  color: #41f6d7;
+}
+
+.btn_main:active {
+  color: #41f6d7;
+}
+
+.btn_main:hover {
+  border: none;
   background: white;
+  cursor: pointer;
+  color: #FF3E79;
+}
+
+.btn_main:active{
+  color: #41f6d7;
+  cursor: pointer;
 }
 
 .all-btn {
@@ -212,7 +236,7 @@
   bottom: -3px;
   width: 0;
   height: 2px; /* Высота линии */
-  background-color: black; /* Цвет подчеркивания при исчезании линии*/
+  background-color: #41f6d7; /* Цвет подчеркивания при исчезании линии*/
   transition: width 0.5s;
 }
 
@@ -224,7 +248,7 @@
   left: 0;
   bottom: -3px;
   height: 2px; /* Высота линии */
-  background-color: red; /* Цвет подчеркивания при появлении линии*/
+  background-color: #FF3E79; /* Цвет подчеркивания при появлении линии*/
   transition: width 0.5s;
 }
 
@@ -244,7 +268,7 @@
   bottom: -3px;
   width: 0;
   height: 2px; /* Высота линии */
-  background-color: black; /* Цвет подчеркивания при исчезании линии*/
+  background-color: #41f6d7; /* Цвет подчеркивания при исчезании линии*/
   transition: width 0.5s;
 }
 .number_call-num:hover:after {
@@ -255,6 +279,17 @@
   left: 0;
   bottom: -3px;
   height: 2px; /* Высота линии */
-  background-color: red; /* Цвет подчеркивания при появлении линии*/
+  background-color: #FF3E79; /* Цвет подчеркивания при появлении линии*/
   transition: width 0.5s;
+}
+
+
+.translation:hover {
+  color: #FF3E79;
+  cursor: pointer;
+}
+
+.translation:active {
+  color: #41f6d7;
+  cursor: pointer;
 }
