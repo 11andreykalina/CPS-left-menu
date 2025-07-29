@@ -4,9 +4,10 @@
   top: 0;
   width: 320px;
   height: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   z-index: 100;
-  box-shadow: 10px 0 20px 15px rgba(0, 0, 0, 0.2), inset 1px 0 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 0 20px 15px rgba(0, 0, 0, 0.2),
+    inset 1px 0 0 rgba(0, 0, 0, 0.5);
 }
 
 .header_menu {
@@ -53,8 +54,6 @@
   margin-bottom: 50px;
 }
 
-
-
 .header_btn {
   border: none;
   background: none;
@@ -96,8 +95,8 @@
 }
 
 #btn_one {
-    margin-top: 8px;
-    color: #7E7E82;
+  margin-top: 8px;
+  color: #7e7e82;
 }
 
 .footer {
@@ -173,12 +172,12 @@
 }
 
 .btn-hover:hover {
-    border: 2px solid #41F6D7; 
-    background: white;
+  border: 2px solid #41f6d7;
+  background: white;
 }
 
 .all-btn {
-  display: inline-block; 
+  display: inline-block;
   overflow: hidden;
 }
 
@@ -192,3 +191,68 @@
   cursor: pointer;
 }
 
+
+
+
+.mail-cps {
+  display: inline-block;
+  color: #000507; /* Цвет обычной ссылки */
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mail-cps:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px; /* Высота линии */
+  background-color: black; /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s;
+}
+
+.mail-cps:hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px; /* Высота линии */
+  background-color: red; /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s;
+}
+
+.number_call-num {
+  display: inline-block;
+  color: #000507; /* Цвет обычной ссылки */
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.number_call-num:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px; /* Высота линии */
+  background-color: black; /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s;
+}
+.number_call-num:hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px; /* Высота линии */
+  background-color: red; /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s;
+}
