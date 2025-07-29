@@ -1,3 +1,7 @@
+body {
+  height: 100%;
+}
+
 .left_menu {
   position: fixed;
   left: 0;
@@ -100,9 +104,8 @@
 }
 
 #btn_one:hover {
-  color: #FF3E79;
+  color: #ff3e79;
 }
-
 
 #btn_one:active {
   color: #41f6d7;
@@ -177,7 +180,7 @@
 }
 
 #ru:hover {
-  color: #FF3E79;
+  color: #ff3e79;
 }
 
 #ru:active {
@@ -192,10 +195,10 @@
   border: none;
   background: white;
   cursor: pointer;
-  color: #FF3E79;
+  color: #ff3e79;
 }
 
-.btn_main:active{
+.btn_main:active {
   color: #41f6d7;
   cursor: pointer;
 }
@@ -207,18 +210,17 @@
 
 .all-btn img {
   border-radius: 50%;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .all-btn img:hover {
-  -webkit-transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
-          transform: rotate(360deg);
+  -webkit-transform: rotate(
+    360deg
+  ); /* Градусы поворота можно изменить по необходимости */
+  transform: rotate(360deg);
   cursor: pointer;
 }
-
-
-
 
 .mail-cps {
   display: inline-block;
@@ -248,7 +250,7 @@
   left: 0;
   bottom: -3px;
   height: 2px; /* Высота линии */
-  background-color: #FF3E79; /* Цвет подчеркивания при появлении линии*/
+  background-color: #ff3e79; /* Цвет подчеркивания при появлении линии*/
   transition: width 0.5s;
 }
 
@@ -279,13 +281,12 @@
   left: 0;
   bottom: -3px;
   height: 2px; /* Высота линии */
-  background-color: #FF3E79; /* Цвет подчеркивания при появлении линии*/
+  background-color: #ff3e79; /* Цвет подчеркивания при появлении линии*/
   transition: width 0.5s;
 }
 
-
 .translation:hover {
-  color: #FF3E79;
+  color: #ff3e79;
   cursor: pointer;
 }
 
