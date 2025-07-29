@@ -101,6 +101,7 @@
   cursor: pointer;
 }
 
+
 #btn_one {
   margin-top: 8px;
   color: #7e7e82;
@@ -200,11 +201,13 @@
   background: white;
   cursor: pointer;
   color: #ff3e79;
+  text-shadow: 1px 3px 5px #ff3e79;
 }
 
 .btn_main:active {
   color: #41f6d7;
   cursor: pointer;
+  text-shadow: none;
 }
 
 .all-btn {
